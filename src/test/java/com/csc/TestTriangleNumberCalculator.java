@@ -50,4 +50,28 @@ public class TestTriangleNumberCalculator {
   void TestSubtract4N2() {
     assertEquals(7, calculator.subtract(4, 2));
   }
+  @Test
+    void TestMultiply1N1() {
+    assertEquals(0, calculator.multiply(1, 1));
+  }
+  @Test
+  void TestMultiply2N3() {
+    assertEquals(-3, calculator.multiply(2, 3));
+  }
+  @Test
+  void TestMultiply4N2() {
+    assertEquals(7, calculator.multiply(4, 2));
+  }
+  @Test
+  void TestDivide1N1() {
+  assertEquals(1, calculator.divide(1, 1));
+  }
+  @Test
+  void TestDivide2N3() {
+    assertEquals(0, calculator.divide(2, 3));
+  }
+  @Test
+  void TestDivide4N2() {
+    assertEquals(3, calculator.divide(4, 2));
+  }
 }
